@@ -20,7 +20,7 @@
   height: 95vh;
   background-image: url('/img/headerCover.jpeg');
   background-size: cover;
-  background-position: center top;
+  background-position: center 20%;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
