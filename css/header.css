@@ -1,6 +1,7 @@
 .navbar-light .navbar-nav .nav-link {
   color: var(--bs-white);
   font-size: 18px;
+  font-family: 'Montserrat-SemiBold';
 }
 
 .navbarList {
@@ -10,6 +11,7 @@
 
 .logo {
   margin-right: 64px;
+  cursor: initial;
 }
 
 /* Nav Bar styles end */
@@ -18,14 +20,32 @@
   height: 90vh;
   background-image: url('/img/headerCover.jpeg');
   background-size: cover;
+  background-position: center -32px;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  user-select: none;
 }
 
 .headerTitle {
   text-align: center;
-  font-size: 28px;
-  padding-bottom: 64px;
+  font-size: 40px;
+  line-height: 1.3;
+  font-family: 'Montserrat-SemiBold';
   color: var(--bs-white);
+  padding-bottom: 64px;
+}
+
+.titleWrapper {
+  background: linear-gradient(
+    transparent,
+    rgba(33, 33, 33, 0.3) 30.3%,
+    rgba(33, 33, 33, 0.55) 40.3%,
+    rgba(33, 33, 33, 0.6) 45.8%,
+    rgba(33, 33, 33, 0.65) 50.5%,
+    rgba(33, 33, 33, 0.7) 55.4%,
+    rgba(33, 33, 33, 0.75) 60.5%,
+    rgba(33, 33, 33, 0.75)
+  );
 }
