@@ -18,15 +18,15 @@
 }
 
 .item-1 {
-  background-image: url(/img/test/1_image.jpeg);
+  background-image: url(../img/test/1_image.jpeg);
 }
 
 .item-2 {
-  background-image: url(/img/test/2_image.jpeg);
+  background-image: url(../img/test/2_image.jpeg);
 }
 
 .item-3 {
-  background-image: url(/img/test/3_image.jpeg);
+  background-image: url(../img/test/3_image.jpeg);
 }
 
 .subculturesSection .videoCarousel {
