@@ -1,0 +1,24 @@
+footer {
+  background-color: #000e19;
+  color: var(--bs-light);
+  padding: 56px 0;
+}
+
+footer .phoneNumber {
+  font-family: 'Montserrat-SemiBold';
+  font-size: 20px;
+}
+
+footer .buyButton {
+  display: inline-block;
+  color: var(--bs-dark);
+  padding: 8px 16px;
+  text-transform: uppercase;
+  background-color: var(--bs-danger);
+  margin-top: 24px;
+}
+
+footer .buyButton:hover {
+  color: var(--bs-dark);
+  background-color: #e46774;
+}
