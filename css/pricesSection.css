@@ -1,5 +1,6 @@
 .pricesSection {
   padding-top: 48px;
+  padding-bottom: 64px;
 }
 
 .pricesSection .priceList {
@@ -23,7 +24,7 @@
 
 .pricesSection .priceButton {
   text-transform: uppercase;
-  margin: 64px 0;
+  margin-top: 64px;
   background-color: var(--bs-danger);
   font-family: 'Montserrat-Medium';
   padding: 6px 12px;

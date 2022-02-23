@@ -4,6 +4,10 @@
   font-family: 'Montserrat-SemiBold';
 }
 
+.navbar-light .navbar-nav .nav-link:hover {
+  color: var(--bs-gray-700);
+}
+
 .navbarList {
   width: 100%;
   justify-content: space-between;
@@ -17,7 +21,7 @@
 /* Nav Bar styles end */
 
 .header {
-  height: 95vh;
+  height: 100vh;
   background-image: url('/img/headerCover.jpeg');
   background-size: cover;
   background-position: center 20%;
