@@ -1,0 +1,39 @@
+.pricesSection {
+  padding-top: 48px;
+}
+
+.pricesSection .priceList {
+  flex-basis: 42%;
+}
+
+.pricesSection .priceList li {
+  padding: 14px 0;
+  border-bottom: 2px solid var(--bs-dark);
+  display: flex;
+  justify-content: space-between;
+}
+
+.pricesSection .priceList li .priceName {
+  font-family: 'Montserrat-Medium';
+}
+
+.pricesSection .priceList li .priceValue {
+  font-family: 'Montserrat-Bold';
+}
+
+.pricesSection .priceButton {
+  text-transform: uppercase;
+  margin: 64px 0;
+  background-color: var(--bs-danger);
+  font-family: 'Montserrat-Medium';
+  padding: 6px 12px;
+  padding-top: 8px;
+  border: 2px solid var(--bs-dark);
+  font-size: 16px;
+  line-height: 1;
+  color: var(--bs-dark);
+}
+.pricesSection .priceButton:hover {
+  color: var(--bs-dark);
+  background-color: #e46774;
+}

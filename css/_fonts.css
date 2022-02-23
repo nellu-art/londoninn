@@ -25,3 +25,10 @@
   font-weight: 700;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Oswald-Medium';
+  src: url('../fonts/Oswald-Medium.ttf');
+  font-weight: 500;
+  font-style: normal;
+}
