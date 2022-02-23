@@ -1,0 +1,31 @@
+.navbar-light .navbar-nav .nav-link {
+  color: var(--bs-white);
+  font-size: 18px;
+}
+
+.navbarList {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-right: 64px;
+}
+
+/* Nav Bar styles end */
+
+.header {
+  height: 90vh;
+  background-image: url('/img/headerCover.jpeg');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.headerTitle {
+  text-align: center;
+  font-size: 28px;
+  padding-bottom: 64px;
+  color: var(--bs-white);
+}
