@@ -22,7 +22,7 @@
 
 .header {
   height: 100vh;
-  background-image: url('/img/headerCover.jpeg');
+  background-image: url('img/headerCover.jpeg');
   background-size: cover;
   background-position: center 20%;
   background-repeat: no-repeat;
