@@ -1,0 +1,63 @@
+.subculturesSection {
+  background-color: #000e19;
+  padding-top: 48px;
+  overflow: hidden;
+  padding-bottom: 100px;
+}
+
+.subculturesSection h2 {
+  color: var(--bs-light);
+  margin-bottom: 48px;
+}
+
+.subculturesSection .videoItem {
+  width: 50%;
+  height: 50vh;
+  background-size: cover;
+  flex-shrink: 0;
+}
+
+.item-1 {
+  background-image: url(/img/test/1_image.jpeg);
+}
+
+.item-2 {
+  background-image: url(/img/test/2_image.jpeg);
+}
+
+.item-3 {
+  background-image: url(/img/test/3_image.jpeg);
+}
+
+.subculturesSection .videoCarousel {
+  display: flex;
+  width: 100%;
+  position: relative;
+  left: -25%;
+}
+
+.videoCarousel .ui-card {
+  position: relative;
+  z-index: 1;
+  transform: scale(0.6) translateY(-2rem);
+  opacity: 0;
+  cursor: pointer;
+  pointer-events: none;
+  transition: 1s;
+}
+
+.videoCarousel .ui-card.active {
+  z-index: 3;
+  transform: scale(1) translateY(0) translateX(0);
+  opacity: 1;
+  pointer-events: auto;
+  transition: 1s;
+}
+.videoCarousel .ui-card.prev,
+.videoCarousel .ui-card.next {
+  z-index: 2;
+  transform: scale(0.8) translateY(-1rem) translateX(0);
+  opacity: 0.6;
+  pointer-events: auto;
+  transition: 1s;
+}
