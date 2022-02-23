@@ -1,0 +1,22 @@
+.sloganSection {
+  height: 80vh;
+  background-color: var(--bs-gray-200);
+  display: flex;
+  align-items: center;
+}
+
+.dummyImage {
+  height: 75%;
+  width: 400px;
+  background-color: var(--bs-gray-500);
+}
+
+.sloganSection h3 {
+  font-family: 'Montserrat-Medium';
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.sloganTitles {
+  margin-left: 120px;
+}

@@ -4,4 +4,5 @@
 @import '_global.css';
 
 /* components imports */
-@import 'header.css'
+@import 'header.css';
+@import 'sloganSection.css';
