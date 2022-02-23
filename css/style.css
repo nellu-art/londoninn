@@ -5,3 +5,4 @@
 @import '_overall.css';
 
 /* components imports */
+@import 'navBar.css'

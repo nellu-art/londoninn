@@ -1,0 +1,13 @@
+.navbar-light .navbar-nav .nav-link {
+  color: var(--bs-white);
+  font-size: 18px;
+}
+
+.navbarList {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-right: 64px;
+}
