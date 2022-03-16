@@ -5,12 +5,6 @@
   align-items: center;
 }
 
-.dummyImage {
-  height: 75%;
-  width: 400px;
-  background-color: var(--bs-gray-500);
-}
-
 .sloganSection h3 {
   font-family: 'Montserrat-Medium';
   font-size: 24px;
@@ -19,4 +13,11 @@
 
 .sloganTitles {
   margin-left: 120px;
+}
+
+.sloganPhoto {
+  height: 80%;
+  width: 500px;
+  object-fit: cover;
+  object-position: 0 0;
 }
