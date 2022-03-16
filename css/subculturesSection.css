@@ -17,16 +17,28 @@
   flex-shrink: 0;
 }
 
-/* .item-1 {
-  background-image: url(../img/test/1_image.jpeg);
-} */
+.item-1 {
+  background-image: url(../img/videoCovers/TEDDY.jpeg);
+}
 
 .item-2 {
-  background-image: url(../img/test/2_image.jpeg);
+  background-image: url(../img/videoCovers/BEATNIKS.jpeg);
 }
 
 .item-3 {
-  background-image: url(../img/test/3_image.jpeg);
+  background-image: url(../img/videoCovers/MODS.jpeg);
+}
+
+.item-4 {
+  background-image: url(../img/videoCovers/ROCKERS.jpeg);
+}
+
+.item-5 {
+  background-image: url(../img/videoCovers/HIPPIES.jpeg);
+}
+
+.item-6 {
+  background-image: url(../img/videoCovers/PUNKS.jpeg);
 }
 
 .subculturesSection .videoCarousel {
@@ -35,7 +47,6 @@
   position: relative;
   left: -25%;
 }
-
 .videoCarousel .ui-card {
   position: relative;
   z-index: 1;
@@ -45,7 +56,6 @@
   pointer-events: none;
   transition: 1s;
 }
-
 .videoCarousel .ui-card.active {
   z-index: 3;
   transform: scale(1) translateY(0) translateX(0);

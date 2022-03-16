@@ -1,24 +1,16 @@
-const $num = $('.ui-card').length;
-const $even = $num / 2;
-const $odd = ($num + 1) / 2;
+const selectedNum = 2;
 
-if ($num % 2 == 0) {
-  $('.videoCarousel .ui-card:nth-child(' + $even + ')').addClass('active');
-  $('.videoCarousel .ui-card:nth-child(' + $even + ')')
-    .prev()
-    .addClass('prev');
-  $('.videoCarousel .ui-card:nth-child(' + $even + ')')
-    .next()
-    .addClass('next');
-} else {
-  $('.videoCarousel .ui-card:nth-child(' + $odd + ')').addClass('active');
-  $('.videoCarousel .ui-card:nth-child(' + $odd + ')')
-    .prev()
-    .addClass('prev');
-  $('.videoCarousel .ui-card:nth-child(' + $odd + ')')
-    .next()
-    .addClass('next');
-}
+$('.videoCarousel .ui-card:nth-child(' + selectedNum + ')').addClass('active');
+$(
+  '.videoCarousel .ui-card:nth-child(' + selectedNum + ')'
+).children()[0].hidden = false;
+
+$('.videoCarousel .ui-card:nth-child(' + selectedNum + ')')
+  .prev()
+  .addClass('prev');
+$('.videoCarousel .ui-card:nth-child(' + selectedNum + ')')
+  .next()
+  .addClass('next');
 
 $('.videoCarousel .ui-card').click(function () {
   const $slide = $('.active').width();
@@ -37,8 +29,13 @@ $('.videoCarousel .ui-card').click(function () {
   $(this).siblings().removeClass('prev active next');
 
   $(this).addClass('active');
+  $(this).children()[0].hidden = false;
   $(this).prev().addClass('prev');
+  if ($(this).prev().children().length)
+    $(this).prev().children()[0].hidden = true;
   $(this).next().addClass('next');
+  if ($(this).next().children().length)
+    $(this).next().children()[0].hidden = true;
 });
 
 // Keyboard nav
