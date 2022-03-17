@@ -29,7 +29,9 @@ $('.videoCarousel .ui-card').click(function () {
   $(this).siblings().removeClass('prev active next');
 
   $(this).addClass('active');
-  $(this).children()[0].hidden = false;
+  setTimeout(() => {
+    $(this).children()[0].hidden = false;
+  }, 0)
   $(this).prev().addClass('prev');
   if ($(this).prev().children().length)
     $(this).prev().children()[0].hidden = true;
